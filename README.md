@@ -24,6 +24,7 @@ BCRYPT_SALT_ROUNDS=10
 ```
 ## Run locally
 ```bash
+npm run build
 npm run dev
 ```
 
