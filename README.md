@@ -22,6 +22,10 @@ PORT=5000
 DATABASE_URL=your_mongo_url
 BCRYPT_SALT_ROUNDS=10
 ```
+## Run locally
+```bash
+npm run dev
+```
 
 # API Endpoint
 1. **Create a user**
@@ -46,5 +50,5 @@ BCRYPT_SALT_ROUNDS=10
    - **Endpoint:** `GET /api/users/:userId/orders`
    - **Description:** Retrieve all orders for a specific user by user ID.
 8. **Calculate Total Price of Orders**
-   - **Endpoint:** `GET /api/users/:userId/orders/total-priced`
+   - **Endpoint:** `GET /api/users/:userId/orders/total-price`
    - **Description:** Calculate the Total Price of Orders for Specific Users by User ID.
