@@ -2,6 +2,7 @@
 
 This API manages users and their orders. This API is developed by using Express.js, TypeScript, and Mongoose.
 
+live API: https://mongoose-express-crud-beta.vercel.app/
 ### Installation
 
 1. **Clone the repository:**
